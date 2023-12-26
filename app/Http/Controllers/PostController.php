@@ -15,6 +15,7 @@ class PostController extends Controller
     //listado de post
     public function index() {
         $posts = Post::get();
+
             return view('posts.index', ['posts' => $posts]);
     }
 
