@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <title>{{$title ?? ''}}</title>
-    @vite(['resources/js/app.js'])
+    {{-- @vite(['resources/js/app.js']) --}}
 </head>
 
 <body class="antialiased bg-slate-100 dark:bg-slate-900">
